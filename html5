@@ -12,6 +12,7 @@
     cabecalho
 </div>
 <div id="menu" class="menu">
+<button id="btn_Home" >Home</button>
 <button id="btn_Nome">Nome</button>
 <button id="btn_telefone">telefone</button>
 <button id="btn_Novo">Novos</button>
@@ -23,7 +24,7 @@
 
 </div>
 <div id="principal" class="principal">
-dcsdcd
+    <iframe></iframe>
 </div>
 <script src="AgendaEletronica.js" type="modelo"></script>
 </html>
