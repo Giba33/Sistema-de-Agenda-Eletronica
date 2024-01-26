@@ -20,7 +20,8 @@
 <button id="btn_Adicionar"class="aba">Adicionar</button>
 <button id="btn_Pesquisar"class="aba">Pesquisar</button>
 <button id="btn_Gestão"class="aba">Gestão</button>
-<buton id="btn_Sobre"class="aba" >Sobre</buton>
+<button id="btn_Sobre"class="aba" >Sobre</buton>
+
 
 </div>
 <div id="principal" class="principal">
