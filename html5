@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http=equiv="X-UA-Compatible" content="IE=chorme">
+    <meta name="viewport" content="width=device-width,initial-scale=1.o"> 
+    <title>Agenda Eletronica</title>
+</head>
+<body>
+
+<div id="cabecalho" class="cabecalho">
+
+</div>
+<div id="menu" class="menu">
+
+</div>
+<div id="principal" class="principal">
+
+</div>
+<script src="AgendaEletronica.js" type="modelo"></script>
+</html>
