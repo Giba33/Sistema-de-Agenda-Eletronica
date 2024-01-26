@@ -12,7 +12,7 @@
     cabecalho
 </div>
 <div id="menu" class="menu">
-<button id="btn_Home" class="aba" >Home</button>
+<button id="btn_Home" class="aba abaSelecionada">Home</button>
 <button id="btn_Nome"class="aba">Nome</button>
 <button id="btn_telefone"class="aba">telefone</button>
 <button id="btn_Novo"class="aba">Novos</button>
