@@ -12,15 +12,15 @@
     cabecalho
 </div>
 <div id="menu" class="menu">
-<button id="btn_Home" >Home</button>
-<button id="btn_Nome">Nome</button>
-<button id="btn_telefone">telefone</button>
-<button id="btn_Novo">Novos</button>
-<button id="btn_Editar">Editar</button>
-<button id="btn_Adicionar">Adicionar</button>
-<button id="btn_Pesquisar" >Pesquisar</button>
-<button id="btn_Gestão">Gestão</button>
-<buton id="btn_Sobre" >Sobre</buton>
+<button id="btn_Home" class="aba" >Home</button>
+<button id="btn_Nome"class="aba">Nome</button>
+<button id="btn_telefone"class="aba">telefone</button>
+<button id="btn_Novo"class="aba">Novos</button>
+<button id="btn_Editar"class="aba">Editar</button>
+<button id="btn_Adicionar"class="aba">Adicionar</button>
+<button id="btn_Pesquisar"class="aba">Pesquisar</button>
+<button id="btn_Gestão"class="aba">Gestão</button>
+<buton id="btn_Sobre"class="aba" >Sobre</buton>
 
 </div>
 <div id="principal" class="principal">

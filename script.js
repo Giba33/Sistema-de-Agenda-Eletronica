@@ -7,6 +7,7 @@ const cabecalho=document.querySelector("#Editar");
 const cabecalho=document.querySelector("#Adicionar");
 const cabecalho=document.querySelector("#Pesquisar");
 const cabecalho=documnent.querySelector("#Gestão");
-const cabecalho=document.querySelector("#Sobre")
+const cabecalho=document.querySelector("#Sobre");
+
 
 
