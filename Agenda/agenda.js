@@ -11,31 +11,32 @@ const sobre=document.querySelector("#Sobre");
 const principal=document.querySelector("#principal")
 
 btn_home.addEventListener("click",(evt)=>{
-    window.open("./home.html","")
+    window.open("./home.html","if_principal");
 });
 btn_nome.addEventListener("click",(evt)=>{
+    window.open("./nome.html","if_principal");
 
 });
 btn_telefone.addEventListener("click",(evt)=>{
-
+    window.open("./telefone.html","if_principal");
 });
 btn_novos.addEventListener("click",(evt)=>{
-
+    window.open("./novos.html","if_principal");
 });
 btn_editar.addEventListener("click",(evt)=>{ 
-
+    window.open("./editar.html","if_principal");
 });
 btn_adicionar.addEventListener("click",(evt)=>{
-
+    window.open("./adicionar.html","if_principal");
 });
 btn_pesquisar.addEventListener("click",(evt)=>{
-
+    window.open("./pesquisar.html","if_principal");
 });
 btn_gestão.addEventListener("click",(evt)=>{
-    
+    window.open("./gestão.html","if_principal");
 });
     btn_sobre.addEventListener("click",(evt)=>{
-
+        window.open("./sobre.html","if_principal");
     });
 
 
