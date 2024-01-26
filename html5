@@ -9,10 +9,16 @@
 <body>
 
 <div id="cabecalho" class="cabecalho">
-fdgsdfgdf
+    cabecalho
 </div>
 <div id="menu" class="menu">
-ferfg
+<button id="btn_novo">Nome</button>
+<button id="btn_novo">telefone</button>
+<button id="btn_novo">Novo</button>
+<button id="btn_novo" >Pesquisa</button>
+<button id="btn_novo">Gestão</button>
+<buton id="btn_novo" >Sobre</buton>
+
 </div>
 <div id="principal" class="principal">
 dcsdcd

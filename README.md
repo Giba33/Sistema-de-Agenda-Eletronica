@@ -1,6 +1,5 @@
 # Sistema-de-Agenda-Eletronica
 
-## Projeto criado utilizando o GitHub e GirHub Desktop
 
 // Criar um sistema de agenda
 //-Esese sistema precisa listar os contatos (nome e telefone)
