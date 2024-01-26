@@ -17,7 +17,7 @@
      display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid
+    border: 1px solid #f00;
     /*border: 1px solid #f00;*/
 }
 .principal{
@@ -51,3 +51,17 @@
     /* border: 1px solid #f00;*/
 
 }
+    /*NOVO */
+
+    .elementosForm{
+
+    }
+    .botoesForm{
+        
+    }
+    .campoForm{
+
+    }
+
+
+    /*******/
