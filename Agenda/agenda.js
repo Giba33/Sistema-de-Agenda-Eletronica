@@ -11,6 +11,7 @@ const sobre=document.querySelector("#Sobre");
 const principal=document.querySelector("#principal")
 
 btn_home.addEventListener("click",(evt)=>{
+    console.log(evt.target);
     window.open("./home.html","if_principal");
 });
 btn_nome.addEventListener("click",(evt)=>{
@@ -38,6 +39,11 @@ btn_gestão.addEventListener("click",(evt)=>{
     btn_sobre.addEventListener("click",(evt)=>{
         window.open("./sobre.html","if_principal");
     });
+
+    const selecionarAba=(el)>{
+        const abas=[...document.querySelectorAll(".aba")];
+        console.log(abas);
+    }
 
 
 
