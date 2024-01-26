@@ -11,38 +11,48 @@ const sobre=document.querySelector("#Sobre");
 const principal=document.querySelector("#principal")
 
 btn_home.addEventListener("click",(evt)=>{
-    console.log(evt.target);
-    window.open("./home.html","if_principal");
+    abrirPagina(evt.target,"home.html");
+   
 });
 btn_nome.addEventListener("click",(evt)=>{
-    window.open("./nome.html","if_principal");
+    abrirPagina(evt.target,"nome.html");
+    
 
 });
 btn_telefone.addEventListener("click",(evt)=>{
-    window.open("./telefone.html","if_principal");
+    abrirPagina(evt.target,"/telefone.html");
+  
 });
-btn_novos.addEventListener("click",(evt)=>{
-    window.open("./novos.html","if_principal");
+btn_editar.addEventListener("click",(evt)=>{  
+    abrirPagina(evt.target,"/novos.html");
+
 });
-btn_editar.addEventListener("click",(evt)=>{ 
-    window.open("./editar.html","if_principal");
-});
+    btn_editar.addEventListener("click",(evt)=>{  
+        abrirPagina(evt.target);"/editar.html");
+
 btn_adicionar.addEventListener("click",(evt)=>{
-    window.open("./adicionar.html","if_principal");
+        abrirPagina(evt.target,"/adicionar.html");
 });
 btn_pesquisar.addEventListener("click",(evt)=>{
-    window.open("./pesquisar.html","if_principal");
+        abrirPagina(evt.target,"pesquisar.html");
 });
 btn_gestão.addEventListener("click",(evt)=>{
-    window.open("./gestão.html","if_principal");
+        abrirPagina(evt.target,"/gestão.html");
 });
     btn_sobre.addEventListener("click",(evt)=>{
-        window.open("./sobre.html","if_principal");
+        abrirPagina(evt.target,"./sobre.html");
     });
 
-    const selecionarAba=(el)>{
+    const abrirPagina=(el,url)=>{
         const abas=[...document.querySelectorAll(".aba")];
         console.log(abas);
+        abas.forEach(e=> {
+            e.classList.remover("abaSelecionada");
+            
+        });
+            el.classList.add("abaSelecionada");
+            window.open(url,"if_principal");
+
     }
 
 
