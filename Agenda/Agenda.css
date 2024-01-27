@@ -52,16 +52,42 @@
 
 }
     /*NOVO */
-
+    #novo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
     .elementosForm{
-
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 80%;
+       /* border: 1px solid #f00;*/
     }
     .botoesForm{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .campoForm{
-
+        display: flex;
+        flex-direction: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 10px;
     }
+    .campoForm input{
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    /***********/
+
+
+
+
 
 
     /*******/
